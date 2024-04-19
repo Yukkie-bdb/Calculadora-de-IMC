@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalcladoraIMC.Pages.ImcPrompt"
+             Title="ImcPrompt">
+    <VerticalStackLayout
+        Padding="15,0"
+        Spacing="0">
+
+            <Label Text="Coloque sua Altura?"/>
+        <Entry x:Name="Altura" Placeholder="Qual o sua altura em centrimetos?"  Keyboard="Numeric"/>
+
+            <Label Text="Coloque seu Peso?" />
+        <Entry x:Name="Peso" Placeholder="Qual o seu peso em KG?" Keyboard="Numeric"/>
+
+            <Button
+                Margin="0,25"
+                Text="Calcular"
+                Clicked="Button_Clicked"
+                />
+
+        
+        <Label Text="O resultado do seu IMC é de:" 
+                       FontSize="25" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"/>
+        
+        
+        <Label Text="" x:Name="IMC"
+                       FontSize="30" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold" 
+                       TextColor="Blue"/>
+
+        <Label Text="" x:Name="Resultado"
+               FontSize="30" 
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold" 
+               TextColor="Brown"/>
+
+        <TableView Intent="Menu">
+            <TableRoot>
+                <TableSection Title="Indice de Massa Corporal">
+                    <TextCell TextColor="Black" Text="Abaixo de 18,50 = Abaixo do Peso"></TextCell>
+                    <TextCell TextColor="Black" Text="Entre 18,60 e 24,99 = Peso Ideal (parabéns)"></TextCell>
+                    <TextCell TextColor="Black" Text="Entre 25 e 29,99 = Levemente acima do peso"></TextCell>
+                    <TextCell TextColor="Black" Text="Entre 30 e 34,99 = Obesidade Grau I"></TextCell>
+                    <TextCell TextColor="Black" Text="Entre 35 e 39,99 = Obesidade Grau II"></TextCell>
+                    <TextCell TextColor="Black" Text="Acima de 40 = Obesidade Grau III"></TextCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalcladoraIMC.MainPage"
+             Title="Home">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Image Source="imcpessoa.png"/>
+
+            <Label
+                Text="O QUE É IMC?"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+
+            <Label
+                Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+                />
+
+            <Label
+                Text="Como ele me ajuda?"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+
+
+            <Label
+                Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+                />
+
+            <Label
+                Text="Como calcula o IMC?"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+
+
+            <Label
+                Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

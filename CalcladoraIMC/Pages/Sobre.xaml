@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalcladoraIMC.Pages.Sobre"
+             Title="Sobre">
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+            <Label
+            Text="Qual o nosso comprometimento?"
+            FontSize="24"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+
+            <Label
+            Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+            />
+
+            <Label
+            Text="Como ele me ajuda?"
+            FontSize="24"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+
+
+            <Label
+                Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+                />
+
+            <Label
+              Text="Sobre MIM?"
+              FontSize="24"
+              FontAttributes="Bold"
+              HorizontalTextAlignment="Center"/>
+
+
+            <Label
+              Text="Mussum Ipsum, cacilds vidis litro abertis.  Mé faiz elementum girarzis, nisi eros vermeio. Si num tem leite então bota uma pinga aí cumpadi! Per aumento de cachacis, eu reclamis. Delegadis gente finis, bibendum egestas augue arcu ut est."
+              />    
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

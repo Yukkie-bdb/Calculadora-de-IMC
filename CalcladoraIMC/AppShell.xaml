@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CalcladoraIMC.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CalcladoraIMC"
+    Shell.FlyoutBehavior="Disabled"
+    xmlns:views="clr-namespace:CalcladoraIMC.Pages"
+    Title="CalcladoraIMC">
+
+    
+
+    <TabBar>
+        <ShellContent Title="Home"
+                     Icon="home.svg"
+                    ContentTemplate="{DataTemplate local:MainPage}"
+                    Route="MainPage" /> 
+        <ShellContent Title="IMC"
+                     Icon="calculadora.svg"
+                     ContentTemplate="{DataTemplate views:ImcPrompt}" />
+        <ShellContent Title="Sobre"
+             Icon="info.svg"
+             ContentTemplate="{DataTemplate views:Sobre}" />
+
+    </TabBar>
+
+</Shell>

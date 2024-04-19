@@ -1,0 +1,1 @@
+C:\Users\SENAI3EM\source\repos\CalcladoraIMC\CalcladoraIMC\CalcladoraIMC.csproj;x64
